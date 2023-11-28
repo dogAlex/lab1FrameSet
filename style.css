@@ -1,0 +1,78 @@
+body{
+    font-family: 'Noto Serif', serif;
+}
+
+.wrapper {
+    width: 100%;
+    padding: 0px;
+    margin: 0px;
+}
+
+.text{
+    box-shadow: 4px 5px 10px 2px rgba(34, 60, 80, 0.2) inset;
+    padding-top: 10px;
+    padding-left: 40px;
+    padding-bottom: 10%;
+    margin: -10px;
+
+}
+.header {
+    display: flex;  
+    align-items: center;
+    justify-content: space-around;
+    background-color: #a0d2eb;
+    font-size: xx-large;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    position: fixed;
+    top:0;
+    left: 0;
+}
+
+.header-logo {
+    margin-right: 10%;
+}
+.header-content {
+    margin-left: 5%;
+    
+    margin-right: auto;
+    align-items: center;
+    font-family: 'Raleway', sans-serif;
+    font-weight: bold;
+}
+.ToMainMenu{
+    text-decoration: none;
+    color: #494D5F;
+}
+.footer {
+    top:0;
+    left: 0;
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    display: flex ;
+    background-color: #494D5F;
+}
+
+.links {
+    justify-content:center;
+    left:0; 
+    top:0;
+    
+    position: fixed;
+    display: flex;
+    width: 100%;
+    height: 100%;
+    background-color: #e5eaf5;
+}
+a{
+    text-decoration: none;
+    color: #494D5F;
+}
+li {
+    font-size: x-large;
+    font-family: 'Noto Serif', serif;
+    font-weight: bolder;
+}
+
